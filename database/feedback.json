@@ -1,0 +1,12 @@
+[
+    {
+        "user_id": "123456",
+        "rating": 2,
+        "feedback": "good"
+    },
+    {
+        "user_id": "123456",
+        "rating": 3,
+        "feedback": "very good"
+    }
+]

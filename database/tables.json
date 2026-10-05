@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "seats": 2,
+        "type": "Normal",
+        "status": "Booked",
+        "booking_date": "3oct",
+        "booking_time": "3pm"
+    },
+    {
+        "id": 2,
+        "seats": 4,
+        "type": "Normal",
+        "status": "Booked",
+        "booking_date": "2sep",
+        "booking_time": "4pm"
+    },
+    {
+        "id": 3,
+        "seats": 6,
+        "type": "VIP",
+        "status": "Booked",
+        "booking_date": "4sep",
+        "booking_time": "2pm"
+    },
+    {
+        "id": 4,
+        "seats": 8,
+        "type": "Normal",
+        "status": "Booked",
+        "booking_date": "3sep",
+        "booking_time": "3pm"
+    }
+]

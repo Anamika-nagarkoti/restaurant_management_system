@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Pizza",
+        "category": "Starter",
+        "price": 180
+    },
+    {
+        "id": 2,
+        "name": "Dosa",
+        "category": "Main Course",
+        "price": 220
+    },
+    {
+        "id": 3,
+        "name": "Chicken Biryani",
+        "category": "Main Course",
+        "price": 250
+    },
+    {
+        "id": 4,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 200
+    }
+]
