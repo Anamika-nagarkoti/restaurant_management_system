@@ -1,10 +1,15 @@
 import json
 from billing.payment import payment
 
+
 def generate_bill():
 
     with open("database/order.json", "r") as file:
         orders = json.load(file)
+
+    if not orders:
+        print("No orders available.")
+        return
 
     print("==============================")
     print("      RESTAURANT BILL")
@@ -27,8 +32,12 @@ def generate_bill():
 
     print("------------------------------")
     print("Total:", total)
-    print("==============================") 
+    print("==============================")
 
     payment(total)
 
-   
+    # Payment ke baad purane orders clear
+    with open("database/order.json", "w") as file:
+        json.dump([], file)
+
+    print("Order cleared successfully.")

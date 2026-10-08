@@ -1,0 +1,12 @@
+[
+    {
+        "booking_id": "B001",
+        "customer_id": "1111",
+        "date": "5 oct",
+        "time": "5pm",
+        "people": 3,
+        "type": "Normal",
+        "table_id": 2,
+        "status": "Booked"
+    }
+]

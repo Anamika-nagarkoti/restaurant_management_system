@@ -1,9 +1,33 @@
 import json
+import msvcrt
 
 from validation.user_id import validate_user_id
 from validation.staff_id import validate_staff_id
 from validation.customer_id import validate_customer_id
 from validation.password import validate_password
+
+def get_password():
+    password = ""
+
+    print("enter your password: ", end="", flush=True)
+
+    while True:
+        ch = msvcrt.getch()
+
+        if ch == b"\r":
+            print()
+            break
+
+        elif ch == b"\b":
+            if password:
+                password = password[:-1]
+                print("\b \b", end="", flush=True)
+
+        else:
+            password += ch.decode()
+            print("*", end="", flush=True)
+
+    return password
 
 
 def signin():
@@ -13,12 +37,8 @@ def signin():
     print("=====================")
 
     user_id = input("enter your id: ")
-    password = input("enter your password: ")
 
-    if not validate_password(password):
-        print("Invalid password")
-        return None
-
+    
     if validate_user_id(user_id):
         print("Admin ID")
 
@@ -30,6 +50,13 @@ def signin():
 
     else:
         print("Invalid ID")
+        return None
+
+    
+    password = get_password()
+
+    if not validate_password(password):
+        print("Invalid password")
         return None
 
     with open("database/user.json", "r") as file:

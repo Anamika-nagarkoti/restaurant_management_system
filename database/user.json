@@ -1,32 +1,28 @@
 [
     {
         "user_id": "1234",
-        "password": "anamika123",
+        "password": "anu123",
         "role": "admin"
     },
     {
         "user_id": "2345",
-        "password": "yogita234",
+        "password": "yogi234",
         "role": "admin"
     },
     {
         "user_id": "1234567890",
-        "password": "staff123",
+        "password": "0000",
         "role": "staff"
     },
     {
         "user_id": "2345678910",
-        "password": "staff234",
+        "password": "1111",
         "role": "staff"
     },
     {
         "user_id": "3456789123",
-        "password": "staff345",
+        "password": "2222",
         "role": "staff"
-    },
-    {
-        "user_id": "123456",
-        "password": "123",
-        "role": "customer"
     }
+   
 ]

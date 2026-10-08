@@ -1,26 +1,230 @@
 [
     {
         "id": 1,
-        "name": "Pizza",
+        "name": "Paneer Tikka Half",
+        "category": "Starter",
+        "price": 120
+    },
+    {
+        "id": 2,
+        "name": "Paneer Tikka Full",
+        "category": "Starter",
+        "price": 200
+    },
+    {
+        "id": 3,
+        "name": "Chicken Tikka Half",
+        "category": "Starter",
+        "price": 150
+    },
+    {
+        "id": 4,
+        "name": "Chicken Tikka Full",
+        "category": "Starter",
+        "price": 250
+    },
+    {
+        "id": 5,
+        "name": "Veg Spring Roll Half",
+        "category": "Starter",
+        "price": 100
+    },
+    {
+        "id": 6,
+        "name": "Veg Spring Roll Full",
         "category": "Starter",
         "price": 180
     },
     {
-        "id": 2,
-        "name": "Dosa",
+        "id": 7,
+        "name": "Veg Hakka Noodles Half",
+        "category": "Chinese",
+        "price": 100
+    },
+    {
+        "id": 8,
+        "name": "Veg Hakka Noodles Full",
+        "category": "Chinese",
+        "price": 180
+    },
+    {
+        "id": 9,
+        "name": "Chicken Hakka Noodles Half",
+        "category": "Chinese",
+        "price": 140
+    },
+    {
+        "id": 10,
+        "name": "Chicken Hakka Noodles Full",
+        "category": "Chinese",
+        "price": 230
+    },
+    {
+        "id": 11,
+        "name": "Veg Manchurian Half",
+        "category": "Chinese",
+        "price": 100
+    },
+    {
+        "id": 12,
+        "name": "Veg Manchurian Full",
+        "category": "Chinese",
+        "price": 170
+    },
+    {
+        "id": 13,
+        "name": "Chilli Paneer Half",
+        "category": "Chinese",
+        "price": 120
+    },
+    {
+        "id": 14,
+        "name": "Chilli Paneer Full",
+        "category": "Chinese",
+        "price": 200
+    },
+    {
+        "id": 15,
+        "name": "Chilli Chicken Half",
+        "category": "Chinese",
+        "price": 150
+    },
+    {
+        "id": 16,
+        "name": "Chilli Chicken Full",
+        "category": "Chinese",
+        "price": 250
+    },
+    {
+        "id": 17,
+        "name": "Shahi Paneer Half",
+        "category": "Main Course",
+        "price": 130
+    },
+    {
+        "id": 18,
+        "name": "Shahi Paneer Full",
         "category": "Main Course",
         "price": 220
     },
     {
-        "id": 3,
-        "name": "Chicken Biryani",
+        "id": 19,
+        "name": "Kadai Paneer Half",
         "category": "Main Course",
+        "price": 130
+    },
+    {
+        "id": 20,
+        "name": "Kadai Paneer Full",
+        "category": "Main Course",
+        "price": 220
+    },
+    {
+        "id": 21,
+        "name": "Butter Chicken Half",
+        "category": "Main Course",
+        "price": 170
+    },
+    {
+        "id": 22,
+        "name": "Butter Chicken Full",
+        "category": "Main Course",
+        "price": 280
+    },
+    {
+        "id": 23,
+        "name": "Dal Makhani Half",
+        "category": "Main Course",
+        "price": 110
+    },
+    {
+        "id": 24,
+        "name": "Dal Makhani Full",
+        "category": "Main Course",
+        "price": 180
+    },
+    {
+        "id": 25,
+        "name": "Veg Biryani Half",
+        "category": "Biryani",
+        "price": 120
+    },
+    {
+        "id": 26,
+        "name": "Veg Biryani Full",
+        "category": "Biryani",
+        "price": 200
+    },
+    {
+        "id": 27,
+        "name": "Chicken Biryani Half",
+        "category": "Biryani",
+        "price": 150
+    },
+    {
+        "id": 28,
+        "name": "Chicken Biryani Full",
+        "category": "Biryani",
         "price": 250
     },
     {
-        "id": 4,
-        "name": "Veg Biryani",
+        "id": 29,
+        "name": "Mutton Biryani Half",
         "category": "Biryani",
-        "price": 200
+        "price": 190
+    },
+    {
+        "id": 30,
+        "name": "Mutton Biryani Full",
+        "category": "Biryani",
+        "price": 320
+    },
+    {
+        "id": 31,
+        "name": "Margherita Pizza Half",
+        "category": "Fast Food",
+        "price": 130
+    },
+    {
+        "id": 32,
+        "name": "Margherita Pizza Full",
+        "category": "Fast Food",
+        "price": 220
+    },
+    {
+        "id": 33,
+        "name": "Farmhouse Pizza Half",
+        "category": "Fast Food",
+        "price": 170
+    },
+    {
+        "id": 34,
+        "name": "Farmhouse Pizza Full",
+        "category": "Fast Food",
+        "price": 280
+    },
+    {
+        "id": 35,
+        "name": "Cold Drink",
+        "category": "Drinks",
+        "price": 60
+    },
+    {
+        "id": 36,
+        "name": "Fresh Lime Soda",
+        "category": "Drinks",
+        "price": 80
+    },
+    {
+        "id": 37,
+        "name": "Mango Shake",
+        "category": "Drinks",
+        "price": 120
+    },
+    {
+        "id": 38,
+        "name": "Sweet Lassi",
+        "category": "Drinks",
+        "price": 100
     }
 ]
