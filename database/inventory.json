@@ -1,7 +1,132 @@
 [
     {
         "id": 1,
-        "item": "pizza",
-        "stock": 2
+        "item": "Paneer",
+        "stock": 20
+    },
+    {
+        "id": 2,
+        "item": "Chicken",
+        "stock": 25
+    },
+    {
+        "id": 3,
+        "item": "Mutton",
+        "stock": 15
+    },
+    {
+        "id": 4,
+        "item": "Rice",
+        "stock": 30
+    },
+    {
+        "id": 5,
+        "item": "Flour",
+        "stock": 25
+    },
+    {
+        "id": 6,
+        "item": "Noodles",
+        "stock": 20
+    },
+    {
+        "id": 7,
+        "item": "Cheese",
+        "stock": 15
+    },
+    {
+        "id": 8,
+        "item": "Tomato",
+        "stock": 20
+    },
+    {
+        "id": 9,
+        "item": "Onion",
+        "stock": 25
+    },
+    {
+        "id": 10,
+        "item": "Capsicum",
+        "stock": 15
+    },
+    {
+        "id": 11,
+        "item": "Cabbage",
+        "stock": 15
+    },
+    {
+        "id": 12,
+        "item": "Carrot",
+        "stock": 15
+    },
+    {
+        "id": 13,
+        "item": "Ginger",
+        "stock": 10
+    },
+    {
+        "id": 14,
+        "item": "Garlic",
+        "stock": 10
+    },
+    {
+        "id": 15,
+        "item": "Green Chilli",
+        "stock": 10
+    },
+    {
+        "id": 16,
+        "item": "Curd",
+        "stock": 15
+    },
+    {
+        "id": 17,
+        "item": "Butter",
+        "stock": 15
+    },
+    {
+        "id": 18,
+        "item": "Cooking Oil",
+        "stock": 25
+    },
+    {
+        "id": 19,
+        "item": "Salt",
+        "stock": 10
+    },
+    {
+        "id": 20,
+        "item": "Spices",
+        "stock": 10
+    },
+    {
+        "id": 21,
+        "item": "Tomato Sauce",
+        "stock": 10
+    },
+    {
+        "id": 22,
+        "item": "Soya Sauce",
+        "stock": 10
+    },
+    {
+        "id": 23,
+        "item": "Chilli Sauce",
+        "stock": 10
+    },
+    {
+        "id": 24,
+        "item": "Lemon",
+        "stock": 10
+    },
+    {
+        "id": 25,
+        "item": "Milk",
+        "stock": 20
+    },
+    {
+        "id": 26,
+        "item": "lassi",
+        "stock": 20
     }
 ]

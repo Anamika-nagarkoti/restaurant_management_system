@@ -1,14 +1,9 @@
 [
     {
-        "item": "Pizza",
-        "quantity": 2,
-        "price": 180,
-        "total": 360
-    },
-    {
-        "item": "Dosa",
-        "quantity": 1,
-        "price": 220,
-        "total": 220
+        "item": "Cold Drink",
+        "size": "",
+        "quantity": 3,
+        "price": 60,
+        "total": 180
     }
 ]

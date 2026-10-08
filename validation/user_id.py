@@ -1,6 +1,9 @@
 def validate_user_id(user_id):
 
-    if user_id.isdigit() and len(user_id) == 4:
-        return True
+    if not user_id.isdigit():
+        return False
 
-    return False
+    if len(user_id) != 4:
+        return False
+
+    return True
